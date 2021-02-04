@@ -6,5 +6,7 @@ pattern ="l l l l l s l n l l s"
 ```
 and change letters with your pattern 
 l : letter
+/
 n : number
+/
 s : symbole
