@@ -1,12 +1,16 @@
-# password-generator-python3
-secure and dynamic password generation that use an pattern to generate passwords
-go to 
+# mapss password generator
+
+mapss generate passwords depending on a given pattern from user, if no
+ pattern is specifies the program uses and internally defined pattern 
+
 ```
-pattern ="l l l l l s l n l l s"
+Usage : python3 mapss <pattern>
 ```
-and change letters with your pattern 
-l : letter
-/
-n : number
-/
-s : symbole
+
+pattern should be only a combination of letters 'l', 'n' and 's'.
+-
+l for letters and n for numbers and s for symbols(punctuations and stuff)
+-
+any letter that is not in this combination is ignored 
+
+
