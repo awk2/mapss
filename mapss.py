@@ -1,10 +1,11 @@
+# parse the command line arguments if no argument are specified 
+# mapss use the default pattern to create a password 
 import secrets
 import string
 import sys
 
-# parse the command line arguments if no argument are specified 
-# mapss use the default pattern to create a password 
-nm_args = len(sys.argv)
+
+
 # list of all characters supposed to be used in password
 characters = string.ascii_letters
 numbers = string.digits
@@ -16,6 +17,7 @@ def usage():
     print("example : python mapss lllsslnlslnns")
     quit()
 
+nm_args = len(sys.argv)
 if   nm_args == 2 :
     pattern = [*sys.argv[1]]
 elif nm_args == 1 :
